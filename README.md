@@ -5,6 +5,6 @@ X-ray photoemission electron microscopy is a technique where one can acquire spa
 
 Following video is a description on how this code works. In Image_detection.Py one can define the marker (imaged by a camera) that needs to be traced before toggling the lens. After defining the region with a square box, the box follows the movement of the marker and reads the coordinate. Then, Plot.py code extracts the coordinate and calculates the center of the box, which will be plotted in the graph simultaneously as the marker moves. If the marker is in the same position the X-Y axis appear red with text "X-OK" and "Y-OK".
 
-This code needs to be customized according to the beamline, the ultimate objective is to use this code to automize the tilt correction process with the need of users/experts.
+This code needs to be customized according to the beamline, the ultimate objective is to use this code to automize the tilt correction process.
 
 <IMG SRC="test_gif.gif" height="500" width="900"><br>
