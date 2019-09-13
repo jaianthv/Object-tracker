@@ -17,8 +17,8 @@ def openimage(image):
 
 # calculates the center of a square/rectangle and returns the center coordinate
 def center(x1,y1,x2,y2):
-    x = x2 - x1
-    y = y2 - y1
+    x = x1+(x2/2)
+    y = y1+(y2/2)
     c = [x,y]
     return c
 
